@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #013243;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    align-items: center;   
+}
+
+nav ul li a:hover{
+    color: #32F5C8; 
+}
+
+nav ul li a{
+    padding: 10px;
+    font-family: 'Sen', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 1.20rem;
+}
+button{
+    padding: 15px 15px;
+    background-color: #32F5C8;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+section{
+    margin:75px 0 0 200px;
+    position: relative;
+}
+
+section h1{
+    color: #32F5C8;
+    font-size: 12em;
+    font-family: 'Sen', sans-serif, ExtraBold 800;
+    letter-spacing: 2px;
+}
+
+section p{
+    line-height: 30px;
+    color: rgb(187, 184, 184);
+    font-size: 20px;
+    font-family: 'Inter', sans-serif, 200;
+}
+
+section button{
+    padding: 20px 15px;
+    background-color: #32F5C8;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+section button a{
+    font-size: 18px;
+    /* text-transform: capitalize; */
+    color: #013243;
+    font-weight: bolder;
+    font-family: 'Sen', sans-serif, Bold 700;
+}
+
+.follow{
+    display:flex;
+    margin-top: 100px;
+}
+
+.follow svg{
+    color: #00ACEE;
+    margin-right: 15px;
+}
+
+.follow .twitter{
+    color: rgb(187, 184, 184);
+    font-family: 'Inter', sans-serif, Thin 100;
+    font-weight: normal;
+}
+
+div img{
+    position: absolute;
+}
+.img1{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 72%;
+}
+.img2{
+    position: absolute;
+    margin-left: 75.5%;
+    margin-top: 130px;
+}
+
+.img3{
+    margin-left: 75px;
+    margin-top: 185px;
+}
+
+.img4{
+    margin-left: 55%;
+    margin-top: 600px;
+}
+
+.img5{
+    margin-left: 57%;
+    margin-top: 90px;
+}
+.img6{
+    margin-left: 47%;
+    margin-top: 420px;
+}
+section .enter span{
+    position: ab;
+}
